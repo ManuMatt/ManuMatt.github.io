@@ -145,6 +145,13 @@ img {
     width: 100%;
     height: auto;
 }
+img.lang{
+  height: 1.875em;
+  width: auto;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0;
+}
 img.profile_pic {
     width: 100%;
     max-width: 15em;
@@ -155,6 +162,7 @@ img.profile_pic {
     filter: drop-shadow(0.1em 0.1em 0.2em);
 }
 ul {
+    height: 1.875em;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -172,7 +180,7 @@ li a {
     text-decoration: none;
 }
 a:hover:not(.active) {
-    background-color: rgb(31, 16, 11);
+    background-color: white;
 }
 a.text {
     color: black;
@@ -183,7 +191,7 @@ a.text:hover {
     background-color: transparent;
 }
 .active {
-    background-color:rgb(161, 88, 59);
+    background-color:#F7F5EE;
 }
 a.img {
     display: inline-block;
@@ -192,6 +200,11 @@ a.img {
 a.img:hover {
     background-color: #F7F5EE;
     opacity: 80%;
+}
+a.lang{
+  height: 1.875em;
+  margin: 0;
+  padding: 0;
 }
 .hidden {
     position: absolute;
